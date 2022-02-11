@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/main.css">
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+
+    <!--responsividade-->
+
+    <link rel="stylesheet" href="style/responsive.css">
+
+    <!--owl css-->
+    <link rel="stylesheet" href="style/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="style/owl/owl.theme.default.min.css">
+    
+    <!--Link Swiper's CSS-->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+
+
+    <title>CineMaravilha - Suas séries e filmes preferidos em um só lugar</title>
+
+</head>
+<body>
+    <header>
+        <div class="container" id="navbar">           
+            <h2 class="logo"><img src="img/logocinimaravilha.png" width="150px" alt="logo CineMaravilha" srcset=""></h2>
+            <div class="bx bx-menu" id="menu-icon"></div>
+            <ul class="navbar" >
+                <li><a href="#pagina-inicial" class=pagina-acionada style="text-decoration:none">Página inicial</a></li>
+                <li><a href="#series" style="text-decoration:none">Séries</a></li>
+                <li><a href="#filmes" style="text-decoration:none">Anime</a></li>
+                <li><a href="#newsletter" style="text-decoration:none">Newsletter</a></li>
+            </ul>
+            <div class="search-box">
+                <input class="search-txt" type="text" name="" placeholder="Digite o titulo">
+                <a class="search-btn" href="#">
+                    <i class="fas fa-search"></i>
+                </a>            
+            </div>
+            <nav>
+                <bottom role="button"class="botaoS">
+                    Sign In
+                </bottom>
+                
+            </nav>
+           
+   <!--Menu responsivo--> 
+            
+            <div class="menu">
+                <div class="menu-line"></div>
+                <div class="menu-line"></div>
+                <div class="menu-line"></div>
+            </div> 
+        </div>
+    </header>
+
+    <!--Filmes principais-->
+    <section class="Filmes-principais swiper" id="Filmes-principais">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide conatiner">
+                <img src="img/batman.jpg" alt="cartaz batman">
+                <h3 class="Nome-filme">
+                    <img src="img/batman-logo.png"  alt="logo batman">
+                    <div>
+                        <bottom role="button"class="botao">
+                            <i class="fas fa-play"></i>
+                            ASSISTIR
+                        </bottom>
+                        <bottom role="button"class="botao">
+                            <i class="fas fa-heart"></i>
+                        </bottom>
+                    </div>
+                </h3>
+                
+            </div>
+            <div class="swiper-slide conatiner">
+                <img src="img/breaking-bad.jpg" alt="cartaz breaking bad">
+                <h3 class="Nome-filme">
+                    <img src="img/logobb.png"  alt="logo batman">
+                    <div>
+                        <bottom role="button"class="botao">
+                            <i class="fas fa-play"></i>
+                            ASSISTIR
+                        </bottom>
+                        <bottom role="button"class="botao">
+                            <i class="fas fa-heart"></i>
+                        </bottom>
+                    </div>
+                </h3>              
+            
+            </div>
+            <div class="swiper-slide conatiner">
+                <img src="img/doctor-strange.jpg" alt="cartaz Doutor Estranho">
+                <h3 class="Nome-filme">
+                    <img src="img/doctor-logo.png" alt="logo doctor strange">
+                    <div>
+                        <bottom role="button"class="botao">
+                            <i class="fas fa-play"></i>
+                            ASSISTIR
+                        </bottom>
+                        <bottom role="button"class="botao">
+                            <i class="fas fa-heart"></i>
+                        </bottom>
+                    </div>
+                </h3>
+            </div>
+            <div class="swiper-slide conatiner">
+                <img src="img/the-last.jpg" alt="cartaz The Last of Us">
+                <h3 class="Nome-filme">
+                    <img src="img/The_Last_of_Us_Logo_2.png">
+                    <div>
+                        <bottom role="button"class="botao">
+                            <i class="fas fa-play"></i>
+                            ASSISTIR
+                        </bottom>
+                        <bottom role="button"class="botao">
+                            <i class="fas fa-heart"></i>
+                        </bottom>
+                    </div>
+                </h3>
+            </div>
+          </div>
+          
+          <div class="swiper-pagination"></div>
+        
+
+    </section>
+
+        <!--Carousel tendencias-->
+    <section>
+        <h2 class="cabecalho">Tendências da semana</h2>
+        <div class="carrosel-filmes">
+            <div class="owl-carousel owl-theme">
+                <div class="item">
+                    <div class="box-filme">
+                        <img src="img/mini1.jpg" alt="" srcset="">
+                    </div>
+                    <h3>Spider Man</h3>
+                    <span>148 min | Heroi</span>
+                </div>
+                <div class="item">
+                    <div class="box-filme">
+                        <img src="img/mini9.jpg" alt="" srcset="">
+                    </div>
+                    <h3>Matrix</h3>
+                    <span>148 min | Ficção</span>
+                </div>
+                <div class="item">
+                    <div class="box-filme">
+                        <img src="img/mini2.jpg" alt="" srcset="">
+                    </div>
+                    <h3>A Era do Gelo</h3>
+                    <span>82 min | Desenho</span>
+                </div>
+                <div class="item">
+                    <div class="box-filme">
+                        <img src="img/mini3.jpg" alt="" srcset="">
+                    </div>
+                    <h3>Boba Fett</h3>
+                    <span>1ª temp | 7 capitulos</span>
+                </div>
+                <div class="item">
+                    <div class="box-filme">
+                        <img src="img/mini4.jpg" alt="" srcset="">
+                    </div>
+                    <h3>Venom</h3>
+                    <span>105 min | Herói</span>
+                </div>
+                <div class="item">
+                    <div class="box-filme">
+                        <img src="img/mini5.jpg" alt="" srcset="">
+                    </div>
+                    <h3>Sobrevivendo ao Jogo</h3>
+                    <span>97 min | Ação</span>
+                </div>
+                <div class="item">
+                    <div class="box-filme">
+                        <img src="img/mini6.jpg" alt="" srcset="">
+                    </div>
+                    <h3>007</h3>
+                    <span>165 min | Ação</span>
+                </div>
+                <div class="item">
+                    <div class="box-filme">
+                        <img src="img/mini7.jpg" alt="" srcset="">
+                    </div>
+                    <h3>Homem Aranha</h3>
+                    <span>176 Miin | Héroi</span>
+                </div>
+                <div class="item">
+                    <div class="box-filme">
+                        <img src="img/mini8.jpg" alt="" srcset="">
+                    </div>
+                    <h3>Esquadrão Suicida</h3>
+                    <span>134 min | Héroi</span>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section>
+        <h2 class="cabecalho">Series premiadas</h2>
+        <div class="carrosel-filmes">
+            <div class="owl-carousel owl-theme">
+                <div class="item">
+                    <div class="box-filme">
+                        <img src="img/mini11.jpg" alt="" srcset="">
+                    </div>
+                    <h3>The Sinner</h3>
+                    <span>4ª Temp | Crime</span>
+                </div>
+                <div class="item">
+                    <div class="box-filme">
+                        <img src="img/mini12.jpg" alt="" srcset="">
+                    </div>
+                    <h3>Euphoria</h3>
+                    <span>2ª temp | Drama</span>
+                </div>
+                <div class="item">
+                    <div class="box-filme">
+                        <img src="img/mini13.jpg" alt="" srcset="">
+                    </div>
+                    <h3>GoT</h3>
+                    <span>8ª temp | Ficção</span>
+                </div>
+                <div class="item">
+                    <div class="box-filme">
+                        <img src="img/mini20.jpg" alt="" srcset="">
+                    </div>
+                    <h3>Prison Break</h3>
+                    <span>5ª temp | Drama</span>
+                </div>
+                <div class="item">
+                    <div class="box-filme">
+                        <img src="img/mini14.jpg" alt="" srcset="">
+                    </div>
+                    <h3>Breaking Bad</h3>
+                    <span>7ª temp | Ação</span>
+                </div>
+                <div class="item">
+                    <div class="box-filme">
+                        <img src="img/mini15.jpg" alt="" srcset="">
+                    </div>
+                    <h3>Anne com E</h3>
+                    <span>3ª temp | Drama</span>
+                </div>
+                <div class="item">
+                    <div class="box-filme">
+                        <img src="img/mini16.jpg" alt="" srcset="">
+                    </div>
+                    <h3>Supernatural</h3>
+                    <span>15ª temp | Mistério</span>
+                </div>
+                <div class="item">
+                    <div class="box-filme">
+                        <img src="img/mini17.jpg" alt="" srcset="">
+                    </div>
+                    <h3>Sherlock Holmes</h3>
+                    <span>3ª temp | Ficção</span>
+                </div>
+                <div class="item">
+                    <div class="box-filme">
+                        <img src="img/mini18.jpg" alt="" srcset="">
+                    </div>
+                    <h3>Vikings</h3>
+                    <span>6ª temp | Ação</span>
+                </div>
+                <div class="item">
+                    <div class="box-filme">
+                        <img src="img/mini19.jpg" alt="" srcset="">
+                    </div>
+                    <h3>Chernobyl</h3>
+                    <span>1ª temp | Drama</span>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section>
+        <h2 class="cabecalho">Animes </h2>
+        <div class="carrosel-filmes">
+            <div class="owl-carousel owl-theme">
+                <div class="item">
+                    <div class="box-filme">
+                        <img src="img/boruto.jpeg" alt="" srcset="">
+                    </div>
+                    <h3>Boruto</h3>
+                    <span>234 eps </span>
+                </div>
+                <div class="item">
+                    <div class="box-filme">
+                        <img src="img/demons.jpg" alt="" srcset="">
+                    </div>
+                    <h3>Demon Slayer</h3>
+                    <span>26 eps </span>
+                </div>
+                <div class="item">
+                    <div class="box-filme">
+                        <img src="img/jojo.jpg" alt="" srcset="">
+                    </div>
+                    <h3>Jojo's</h3>
+                    <span>39 eps </span>
+                </div>
+                <div class="item">
+                    <div class="box-filme">
+                        <img src="img/king.jpeg" alt="" srcset="">
+                    </div>
+                    <h3>Ranking of Kings</h3>
+                    <span>23 eps </span>
+                </div>
+                <div class="item">
+                    <div class="box-filme">
+                        <img src="img/land.jpeg" alt="" srcset="">
+                    </div>
+                    <h3>Land of Leadale</h3>
+                    <span>16 eps </span>
+                </div>
+                <div class="item">
+                    <div class="box-filme">
+                        <img src="img/onepiece.jpeg" alt="" srcset="">
+                    </div>
+                    <h3>One Peace</h3>
+                    <span>1009 eps </span>
+                </div>
+                <div class="item">
+                    <div class="box-filme">
+                        <img src="img/oriel.jpeg" alt="" srcset="">
+                    </div>
+                    <h3>Orient</h3>
+                    <span>12 eps </span>
+                </div>
+                <div class="item">
+                    <div class="box-filme">
+                        <img src="img/titan.jpeg" alt="" srcset="">
+                    </div>
+                    <h3>Ataque de titans</h3>
+                    <span>25 eps </span>
+                </div>
+                <div class="item">
+                    <div class="box-filme">
+                        <img src="img/strongest.jpeg" alt="" srcset="">
+                    </div>
+                    <h3>O sábio mais forte..</h3>
+                    <span>12 eps </span>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!--Newsletter-->
+
+    <section class="newsletter" id="newsletter">
+        <h2>Se inscreva para receber<br> novidades!</h2>
+        <form action="">
+            <input type="email" class="email" placeholder=" Digite seu email..." required>
+            <input type="submit" value="Se inscreva" class="btn">
+        </form>
+    </section>
+
+    <!--Redes Sociais-->
+
+    <section class="footer">
+        <h2 class="sublinhado">Nossas Redes sociais</h2>
+        <div class="social">
+            <a href="#">
+                <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="#">
+                <i class="fab fa-twitter"></i>
+            </a>
+            <a href="#">
+                <i class="fab fa-instagram"></i>
+            </a>
+            <a href="#">
+                <i class="fab fa-github-alt"></i>
+            </a>
+        </div>
+    </section>
+    <!--Copyright-->
+
+    <div class="copyright">
+        <p>&#169; Todos os direitos reservados a Rafael Freire</p>
+    </div>
+
+    <!--Swiper JS-->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!--Carousel JS-->
+    <script src="https://kit.fontawesome.com/3aa37b50db.js" crossorigin="anonymous"></script>
+    <script src="js/owl/jquery.min.js"></script>
+    <script src="js/owl/owl.carousel.min.js"></script>
+    <script src="js/setup.js"></script>
+
+
+</body>
+</html>
